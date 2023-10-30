@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+</head>
+<body>
+    <script>
+        var usia = 20 //variable
+        const a = 2 //gabisa diubah (constanta)
+        let b = 3 //sodaranya var bisa diubah
+        // a = 3
+        // b = 2
+        console.log('Usia kamu adalah ' + usia)
+        alert('usia kamu adalah ' + usia)
+        
+        // input, output dalem pop up
+        let nama = prompt('Nama kamu adalah')
+        alert('Nama kamu ' + nama)
+
+        // example
+        let name = 'Axvoyz' //tipe string
+        let age = 17 //tipe int
+        let tinggiBadan = 155.5 //tipe float
+        let beratBadan 
+        let pacar = 1
+
+        beratBadan = 40
+
+        // if (pacar == null) {            //if else
+        //     pacar = 'belum punya'
+        // } else {
+        //     pacar = 'udah punya'
+        // }
+
+        switch(pacar) {
+            case 1 : 
+                pacar = 'saya satu'
+            break 
+            case 2 : 
+                pacar = 'saya dua'
+            break
+            default :
+                pacar = 'belum punya'
+            break
+        }
+
+        let saldoAwal = 100000
+        let pengeluaran = 10000
+        let tambahan = 5000
+        const sisa = saldoAwal - pengeluaran + tambahan
+
+        alert('Your name is ' + name + ' and your age is ' + age + ' years old')
+        alert(`Nama saya ${name}, Usia saya ${age}, Tinggi badan saya ${tinggiBadan}cm, Berat badan saya ${beratBadan}kg dan Pacar ${pacar}`)
+        alert(`Saldo saya ${saldoAwal} pengeluaran saya ${pengeluaran} lalu saya mendapatkan tambahan sebanyak ${tambahan} total uang saya ${sisa}`)
+    </script>
+</body>
+</html>
